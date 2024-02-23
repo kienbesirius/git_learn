@@ -29,3 +29,15 @@
 - To change branch type command : `git branch <the_branch_name>`
 - Create new file(s) and add as usual and type : `git commit -m "message of yours"`
 - To push to the Release branch type : `git push origin Release`
+
+# More information at Commits Branch
+Command typed: 
+- `git branch Commits`
+- `git checkout Commits`
+- `git push origin Commits`
+
+The result is a new branch `Commits` append to Repository
+
+And this Commits branch have all the components in the Release branch `A copy of Release Branch`
+
+`Cause Commits branch was create while working in the Release branch` so this is the result
