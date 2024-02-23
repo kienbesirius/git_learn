@@ -41,3 +41,8 @@ The result is a new branch `Commits` append to Repository
 And this Commits branch have all the components in the Release branch `A copy of Release Branch`
 
 `Cause Commits branch was create while working in the Release branch` so this is the result
+
+- `git tag -a f.10.59 -m "Testing tag one at Commits"`
+- `git push --tag`
+This two line above is about tag. When push a tag, Git auto create a .zip and .gz file store all the components in the current working branch `Commits`
+
