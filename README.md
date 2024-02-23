@@ -46,3 +46,13 @@ And this Commits branch have all the components in the Release branch `A copy of
 - `git push --tag`
 This two line above is about tag. When push a tag, Git auto create a .zip and .gz file store all the components in the current working branch `Commits`
 
+# More about tag
+- After tag f.10.59 created, I push and update the README.md but nothing changed in tag f.10.59
+- Then I add a new tag called `f.11.11` that works.
+The commands typed is
+- `git add README.md`
+- `git commit -m "Update TAG f.11.11"`
+- `git tag -a f.11.11 -m "Update the tag"`
+- `git push origin Commit --tag`
+
+LETS SEE THE CHANGE
