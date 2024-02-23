@@ -1,0 +1,10 @@
+commands
+git status :  display the current branch, the commits, untracked files
+git add : staging the file then "git status" one more to see what changed
+git commit -m "<The sentences or message>" : create a new commit, but at this time the file(s) are not "Pushed" up to the github yet...
+git push origin master : "push" the file(s) to the reposiroty at main branch, the master branch
+// ! THEN 'GIT STATUS' ONE MORE TO SEE THE CHANGES
+NEXT: modify the file(s) just pushed to repository and create a new file "git status" to see the changes.
+git add <fileName> : staging the modified and new created file(s) then "git status" to see the changes, it's ready to commit and push to repository.
+git diff <fileName> : This show the changed things in the modified file
+git status : ....
