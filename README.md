@@ -1,3 +1,4 @@
+
 # This is Zero Master GitHub Command
 git status
 
@@ -30,4 +31,8 @@ git checkout main : To come back up to date with the Repository
 
 
 
+=======
+# See What Changed When I Changed The README.md before the `git pull`
+- `git pull`
 
+This is git_pull_once <- main
